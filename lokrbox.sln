@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LBDataManager", "LBDataManager\LBDataManager.csproj", "{B1462655-07FB-4BEC-820C-A2C8F886CFCE}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "LBData", "LBData\LBData.sqlproj", "{329E9A6A-0F9B-4210-8521-F8A43765CA9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LBDesktopUI", "LBDesktopUI\LBDesktopUI.csproj", "{6CC506F4-B585-4728-8792-775851AA0B06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{B1462655-07FB-4BEC-820C-A2C8F886CFCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1462655-07FB-4BEC-820C-A2C8F886CFCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1462655-07FB-4BEC-820C-A2C8F886CFCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329E9A6A-0F9B-4210-8521-F8A43765CA9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329E9A6A-0F9B-4210-8521-F8A43765CA9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329E9A6A-0F9B-4210-8521-F8A43765CA9D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{329E9A6A-0F9B-4210-8521-F8A43765CA9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329E9A6A-0F9B-4210-8521-F8A43765CA9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329E9A6A-0F9B-4210-8521-F8A43765CA9D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6CC506F4-B585-4728-8792-775851AA0B06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CC506F4-B585-4728-8792-775851AA0B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CC506F4-B585-4728-8792-775851AA0B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CC506F4-B585-4728-8792-775851AA0B06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
