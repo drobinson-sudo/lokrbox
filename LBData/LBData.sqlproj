@@ -65,4 +65,11 @@
   <ItemGroup>
     <None Include="PublishLocations\LBData.publish.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\User.sql" />
+    <Build Include="dbo\Tables\Item.sql" />
+    <Build Include="dbo\Tables\Container.sql" />
+    <Build Include="dbo\Tables\Location.sql" />
+    <Build Include="dbo\Tables\Image.sql" />
+  </ItemGroup>
 </Project>

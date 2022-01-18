@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Container]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [LocationID] INT NOT NULL, 
+    [Name] NVARCHAR(50) NOT NULL
+)
