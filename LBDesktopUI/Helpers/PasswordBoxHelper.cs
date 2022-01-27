@@ -8,7 +8,11 @@ using System.Windows;
 using System.Windows.Controls;
 
 namespace LBDesktopUI.Helpers
-{
+{   //The following code comes from StackOverflow https://stackoverflow.com/questions/30631522/caliburn-micro-support-for-passwordbox
+    //In support of security in the MVVM design pattern, Caliburn.Micro does not automatically bind to values in
+    //PasswordBoxes. In order to have access to the plain text values in the PasswordBox (so I can send HTTPS requests to API),
+    //I have used this code from StackOverflow. It registers a bound object from PasswordBox, and also needs a small snippet
+    //in the Bootstrapper constructor after the Initialize() method of the Bootstrapper.cs file.
     public static class PasswordBoxHelper
     {
         public static readonly DependencyProperty BoundPasswordProperty =
